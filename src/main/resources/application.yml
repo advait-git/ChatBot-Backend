@@ -1,3 +1,13 @@
 ai:
-  secret:
+  secret: sk-proj-OiWFPF9kLTbAzU06C90vT3BlbkFJwmKGjYSwmW4ZEHdgZRBW
   url: https://api.openai.com/v1/chat/completions
+
+server:
+  port: 8080
+
+spring:
+  session:
+    store-type: redis
+  redis:
+    host: localhost
+    port: 6379

@@ -1,5 +1,5 @@
 ai:
-  secret: sk-proj-OiWFPF9kLTbAzU06C90vT3BlbkFJwmKGjYSwmW4ZEHdgZRBW
+  secret:
   url: https://api.openai.com/v1/chat/completions
 
 server:

@@ -15,7 +15,7 @@ public class ChatGptRequest {
     private List<ChatGptRequestMessage> messages;
 
     public ChatGptRequest(ApiRequest request) {
-        this.model = "gpt-3.5-turbo-16k-0613";
+        this.model = "gpt-3.5-turbo";
         this.messages = List.of(new ChatGptRequestMessage(request));
     }
 }
